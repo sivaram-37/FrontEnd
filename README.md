@@ -1,2 +1,2 @@
 # HTML
-Sample HTML documents rendered at Kodnest
+Sample Frontend documents rendered at Kodnest
