@@ -1,0 +1,52 @@
+/* Universal Selector*/
+
+* {
+  color: blue;
+}
+
+/* Tag or element Selector*/
+
+h1 {
+  color: red;
+}
+
+/* Id Selector */
+
+#p1 {
+  color: brown;
+}
+
+/* Class Selector*/
+
+.c1 {
+  color: yellowgreen;
+}
+
+/* Group Selector */
+
+#p2,
+#p3,
+.c2 {
+  color: deeppink;
+}
+
+/* Child Selector */
+
+ul > li {
+  list-style-type: square;
+}
+ol > li {
+  list-style-type: lower-alpha;
+}
+
+/* Pseudo-class Selector */
+
+#p4:hover {
+  color: green;
+}
+
+/* Attribute Selector */
+
+input[type="text"] {
+  background-color: aqua;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="text-align: center">
+    <form action="">
+      <label>A : </label>
+      <input
+        id="a"
+        type="text"
+        placeholder="Enter the value for A"
+        width="200px"
+      />
+      <br /><br />
+      <label>B : </label>
+      <input
+        id="b"
+        type="text"
+        placeholder="Enter the value for B"
+        width="200px"
+      />
+      <br /><br />
+      <input type="submit" value="Calculate" onclick="calculate()" />
+    </form>
+    <script>
+      function calculate() {
+        let a = Number(document.getElementById("a").value);
+        let b = Number(document.getElementById("b").value);
+        alert(
+          "The Addition for two number = " +
+            (a + b) +
+            "\n" +
+            "The Subtraction for two number = " +
+            (a - b) +
+            "\n" +
+            "The Multiplication for two number = " +
+            a * b +
+            "\n" +
+            "The Division for two number = " +
+            a / b +
+            "\n"
+        );
+      }
+    </script>
+  </body>
+</html>

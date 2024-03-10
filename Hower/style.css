@@ -1,0 +1,13 @@
+div{
+    width: 250px;
+    height: 250px;
+    margin-top: 200px;
+    margin-left: 200px;
+    background-color: red;
+}
+div:hover{
+    width: 300px;
+    height: 300px;
+    opacity: 0.9;
+    border-radius: 400px;
+}

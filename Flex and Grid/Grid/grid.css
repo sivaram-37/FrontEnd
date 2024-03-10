@@ -1,0 +1,60 @@
+#d1 {
+  background-image: url(../images/1.jpeg);
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin: 30px;
+}
+#d2 {
+  background-image: url(../images/2.jpeg);
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin: 30px;
+}
+#d3 {
+  background-image: url(../images/3.jpeg);
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin: 30px;
+}
+#d4 {
+  background-image: url(../images/4.jpeg);
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin: 30px;
+}
+#d5 {
+  background-image: url(../images/5.jpeg);
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin: 30px;
+}
+#d6 {
+  background-image: url(../images/6.jpeg);
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin: 30px;
+}
+#d7 {
+  background-image: url(../images/7.jpeg);
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin: 30px;
+}
+#d8 {
+  background-image: url(../images/8.jpeg);
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin: 30px;
+}
+.gridclass {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

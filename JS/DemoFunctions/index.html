@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Function without Parameter and without return
+      function disp1() {
+        console.log("Hello");
+      }
+      disp1();
+
+      //Function with Parameter and without return
+      function add(a, b) {
+        console.log(a + b);
+      }
+      add(10, 20);
+
+      //Function with Parameter and with return
+      function sub(a, b) {
+        return a + b;
+      }
+      let res = sub(20, 5);
+      console.log(res);
+
+      //Function without Parameter and with return
+      function disp2() {
+        return "Without parameter";
+      }
+      let r = disp2();
+      console.log(r);
+    </script>
+  </body>
+</html>

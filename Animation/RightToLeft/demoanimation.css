@@ -1,0 +1,23 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: demoanimation;
+  animation-duration: 10s;
+  float: right;
+}
+
+@keyframes demoanimation {
+  from {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+  }
+  to {
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    border-radius: 200px;
+    margin-right: 73%;
+  }
+}

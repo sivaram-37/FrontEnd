@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        text-align: center;
+        border: 2px solid red;
+        padding: 25px;
+        margin-left: 40%;
+        margin-right: 40%;
+      }
+      p {
+        text-align: center;
+        color: rgb(0, 255, 26);
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label>Username : </label>
+      <input type="text" id="name" />
+      <br /><br />
+      <label>Password : </label>
+      <input type="password" id="pass" />
+      <br /><br />
+      <input type="submit" onclick="return check()" />
+    </form>
+
+    <p id="np"></p>
+    <p id="pp"></p>
+
+    <script>
+      function check() {
+        let n = document.getElementById("name").value + "";
+        let p = document.getElementById("pass").value + "";
+        if (n.length < 6) {
+          alert("Name should have atleast 6 characters");
+        } else if (p.length < 8) {
+          alert("Password should have atleast 8 characters");
+        } else {
+          alert("Login success !!!");
+        }
+        document.getElementById("np").innerHTML = "Entered Username is " + n;
+        document.getElementById("pp").innerHTML = "Entered Password is " + p;
+        return false;
+      }
+    </script>
+  </body>
+</html>

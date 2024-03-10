@@ -1,0 +1,15 @@
+#b1{
+    color:  rgb(38, 155, 202);
+    font-size: large;
+    background-color: white;
+    border: solid rgb(38, 155, 202) 1.5px;
+    border-radius: 5px;
+    margin: 20px;
+    height: 35px;
+    width: 100px;
+    
+}
+#b1:hover{
+    color: white;
+    background-color:  rgb(38, 155, 202);
+}

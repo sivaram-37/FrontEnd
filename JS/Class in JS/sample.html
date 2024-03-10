@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Student class --> name,age,marks,study()
+      console.log("Class Student :-");
+      let Student = {
+        name: "XYZ",
+        age: 30,
+        marks: 97.5,
+        study() {
+          console.log("Studying");
+        },
+      };
+      console.log(Student.name);
+      console.log(Student.age);
+      console.log(Student.marks);
+      console.log(Student.study());
+
+      //Employee --> name,id,gender,contact_number,work(),sleep()
+      console.log("Class Employee :-");
+      let Employee = {
+        name: "ABC",
+        id: "e4140",
+        gender: "Male",
+        contact_number: 950089975,
+        work() {
+          console.log("Working");
+        },
+        sleep() {
+          console.log("Sleeping");
+        },
+      };
+      console.log(Employee.name);
+      console.log(Employee.id);
+      console.log(Employee.gender);
+      console.log(Employee.contact_number);
+      console.log(Employee.work());
+      console.log(Employee.sleep());
+
+      //Product -->pid,pname,pdetails,ptxt,shipping(),delivered()
+      console.log("Class Product :-");
+      let Product = {
+        pid: "147",
+        pname: "Mari Gold",
+        pdetails: "Britiania Mari Gold Biscuit",
+        ptxt: "Biscuit",
+        shipping() {
+          console.log("Shipping");
+        },
+        delivered() {
+          console.log("Delivered");
+        },
+      };
+      console.log(Product.pid);
+      console.log(Product.pname);
+      console.log(Product.pdetails);
+      console.log(Product.ptxt);
+      console.log(Product.shipping());
+      console.log(Product.delivered());
+
+      //Order --> oid,oname,onumber,odetails,purchase(),return()
+      console.log("Class Order :-");
+      let Order = {
+        oid: "298",
+        oname: "Mixer",
+        onumber: 4000976,
+        odetails: "Preeti Multi purpose Mixer",
+        purchase() {
+          console.log("Purchase item");
+        },
+        return() {
+          console.log("Return item");
+        },
+      };
+      console.log(Order.oid);
+      console.log(Order.oname);
+      console.log(Order.onumber);
+      console.log(Order.odetails);
+      console.log(Order.purchase());
+      console.log(Order.return());
+    </script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.div1{
+    color:crimson;
+    background-size: 225px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    /* border: solid red 2px; */
+    margin: 5px;
+    text-align: center;
+    float:left;
+    padding: 3px;
+    width: 18%;
+    height: 100px;
+}
+.div1:hover{
+    width: 19%;
+    height: 150px;
+    
+}
+

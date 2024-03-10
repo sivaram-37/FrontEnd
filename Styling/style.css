@@ -1,0 +1,21 @@
+.divclass{
+    color:chartreuse;
+    width: 60px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#d1{
+    background-color:darkgreen;
+}
+#d2{
+    background-color:blue;
+}
+#d3{
+    background-color: purple;
+}
+#d4{
+    background-color:crimson;
+}
+#d5{
+    background-color:chocolate;
+}
